@@ -91,34 +91,30 @@
         <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
         <ul class="example__list">
           <li class="example__item">
-            <p class="example__text">5 КГ</p>
+            <p class="example__excerpt">5 кг</p>
             <p class="example__text">снижение веса</p>
           </li>
           <li class="example__item">
-            <p class="example__text">60 ДНЕЙ</p>
+            <p class="example__excerpt">60 дней</p>
             <p class="example__text">затрачено времени</p>
           </li>
         </ul>
-        <p class="example__desc">Затраты на питание: 15 000 РУБ.</p>
+        <p class="example__desc">Затраты на питание: 15 000 <span>РУБ.</span></p>
         <div class="slider">
           <div class="slider__list">
             <img class="slider__item slider__item--active" src="img/well-fed-cat.jpg" width="280" height="232" alt="упитанный кот">
             <img class="slider__item" src="#" width="280" height="232" alt="cтройный кот">
+          </div>
           <div class="slider__wrapper">
-            <p class="slider__text">
-              было
-            </p>
-            <button class="slider__control slider__control--active"></button>
-            <button class="slider__control"></button>
-            <p class="slider__text">
-              стало
-            </p>
+            <button class="slider__control slider__control--active">было</button>
+            <input type="range" min="0" max="100" value="25" step="50">
+            <button class="slider__control">стало</button>
           </div>
         </div>
       </section>
       <div class="address">
         <div class="address__wrapper">
-          <p class="address__text">приглашаем<br> к сотрудничеству<br> дилеров!</p>
+          <p class="address__excerpt">приглашаем<br> к сотрудничеству<br> дилеров!</p>
           <p class="address__text">ул. Большая<br> Конюшенная, д. 19/8<br> Санкт-Петербург</p>
         </div>
         <div class="map">
@@ -130,19 +126,17 @@
       <a class="page-footer__logo">
         <img src="img/logotype.svg" width="101" height="18" alt="Кэт энерджи">
       </a>
-      <div class="social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="social">
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+        </li>
+      </ul>
       <div class="page-footer__copyright copyright">
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
       </div>
