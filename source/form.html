@@ -96,11 +96,11 @@
               </li>
             </ul>
           </fieldset>
-          <div class="contacts">
-            <h2 class="contacts__title">
+          <fieldset class="contacts">
+            <legend class="contacts__title">
               Контактные данные<br>
               (владельца кота)
-            </h2>
+            </legend>
             <ul class="contacts__list">
               <li class="contacts__item">
                 <label for="contacts-e-mail">
@@ -115,8 +115,9 @@
                 <input class="contacts__field" type="text" name="contacts-phone" id="contacts-phone" required>
               </li>
             </ul>
-          </div>
-          <textarea class="comment" name="comment">
+          </fieldset>
+          <label class="visually-hidden" for="comment">текстовое поле</label>
+          <textarea class="comment" name="comment" id="comment">
             Расскажите обо всех повадках кота
           </textarea>
           <fieldset class="upsale">
@@ -126,30 +127,30 @@
             <ul class="upsale__list">
               <li class="upsale__item">
                 <label class="control">
-                  <input class="visually-hidden control--input" type="checkbox" name="sweetener" checked>
-                  <span class="control--mark"></span>
-                  <span class="control--label">сахарозаменитель</span>
+                  <input class="visually-hidden" type="checkbox" name="sweetener" checked>
+                  <span class="control control--mark"></span>
+                  <span class="control control--label">сахарозаменитель</span>
                 </label>
               </li>
               <li class="upsale__item">
                 <label class="control">
-                  <input class="visually-hidden control--input" type="checkbox" name="drinking-water">
-                  <span class="control--mark"></span>
-                  <span class="control--label">питьевая вода</span>
+                  <input class="visually-hidden" type="checkbox" name="drinking-water">
+                  <span class="control control--mark"></span>
+                  <span class="control control--label">питьевая вода</span>
                 </label>
               </li>
               <li class="upsale__item">
                 <label class="control">
-                  <input class="visually-hidden control--input" type="checkbox" name="milk">
-                  <span class="control--mark"></span>
-                  <span class="control--label">молоко</span>
+                  <input class="visually-hidden" type="checkbox" name="milk">
+                  <span class="control control--mark"></span>
+                  <span class="control control--label">молоко</span>
                 </label>
               </li>
               <li class="upsale__item">
                 <label class="control">
-                  <input class="visually-hidden control--input" type="checkbox" name="vitamins">
-                  <span class="control--mark"></span>
-                  <span class="control--label">витамины</span>
+                  <input class="visually-hidden" type="checkbox" name="vitamins">
+                  <span class="control control--mark"></span>
+                  <span class="control control--label">витамины</span>
                 </label>
               </li>
             </ul>
